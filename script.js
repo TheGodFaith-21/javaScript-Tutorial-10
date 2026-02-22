@@ -18,7 +18,7 @@ for(let i = 0;i < 5; i++){
 */
 
 // ITERATE ARRAY \\
-
+/*
 let names = ["Kan","Ken","Kin","Kon","Kun"];
 //forward
 for(let i = 0; i < names.length; i++){
@@ -27,4 +27,23 @@ for(let i = 0; i < names.length; i++){
 //reverse
 for(let i = names.length-1; i >= 0; i--){
     console.log(names[i]);
+}
+    */
+
+// BREAK keyword \\
+
+let names = ["Kan","Ken","Kin","Kon","Kun"];
+
+for(let i = 0; i < names.length; i++){
+    console.log(names[i]);
+
+    if(i === 3){
+        break;
+    }
+}
+
+for(let i = 0; i < names.length; i++){
+    console.log(names[i]);
+    break;
+
 }
