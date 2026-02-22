@@ -5,6 +5,7 @@ console.log("Hello World");
 
 //for(variable; condition; operation)
 
+/*
 //number sequence
 for(let i = 0; i < 5; i++){
     console.log(i);
@@ -13,4 +14,13 @@ for(let i = 0; i < 5; i++){
 //string sequence
 for(let i = 0;i < 5; i++){
     console.log("Hello World");
+}
+*/
+
+// ITERATE ARRAY \\
+
+let names = ["Kan","Ken","Kin","Kon","Kun"];
+
+for(let i = 0; i < names.length; i++){
+    console.log(names[i]);
 }
