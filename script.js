@@ -31,7 +31,7 @@ for(let i = names.length-1; i >= 0; i--){
     */
 
 // BREAK keyword \\
-
+/*
 let names = ["Kan","Ken","Kin","Kon","Kun"];
 
 for(let i = 0; i < names.length; i++){
@@ -45,5 +45,13 @@ for(let i = 0; i < names.length; i++){
 for(let i = 0; i < names.length; i++){
     console.log(names[i]);
     break;
+}
+*/
 
+// FOR / IN LOOP \\
+
+let names = ["lan", "len", "lin", "lon", "lun"];
+
+for(let i in names){
+    console.log(names[i]);
 }
