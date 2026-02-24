@@ -60,7 +60,16 @@ for(let i in names){
 // FOR/OF LOOP \\
 
 let names = ["yam","yem","yim","yom","yum"];
-
+/*
+//declaring variable array
 for(let x of names){
     console.log(x);
+}
+//declaring index
+for(let x in names){
+    console.log(x);
+}*/
+//declaring with number before names.
+for(let x in names){
+    console.log(`${parseInt(x)+1}. ${names[x]}`);
 }
