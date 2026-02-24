@@ -49,9 +49,18 @@ for(let i = 0; i < names.length; i++){
 */
 
 // FOR / IN LOOP \\
-
+/*
 let names = ["lan", "len", "lin", "lon", "lun"];
-
+//declaring index
 for(let i in names){
     console.log(names[i]);
+}
+*/
+
+// FOR/OF LOOP \\
+
+let names = ["yam","yem","yim","yom","yum"];
+
+for(let x of names){
+    console.log(x);
 }
