@@ -73,3 +73,9 @@ for(let x in names){
 for(let x in names){
     console.log(`${parseInt(x)+1}. ${names[x]}`);
 }
+
+let i = 1;
+for(let x of names){
+    console.log(`${i}. ${x}`);
+    i++;
+}
