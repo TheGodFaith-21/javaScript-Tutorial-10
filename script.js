@@ -58,9 +58,9 @@ for(let i in names){
 */
 
 // FOR/OF LOOP \\
-
-let names = ["yam","yem","yim","yom","yum"];
 /*
+let names = ["yam","yem","yim","yom","yum"];
+
 //declaring variable array
 for(let x of names){
     console.log(x);
@@ -68,7 +68,8 @@ for(let x of names){
 //declaring index
 for(let x in names){
     console.log(x);
-}*/
+}
+
 //declaring with number before names.
 for(let x in names){
     console.log(`${parseInt(x)+1}. ${names[x]}`);
@@ -79,3 +80,19 @@ for(let x of names){
     console.log(`${i}. ${x}`);
     i++;
 }
+*/
+
+// TUTORIAL CHALLANGE \\
+
+let names = ["Tan","Ten","Tin","Ton","Tun"];
+
+
+for(let i = 4; i < names.length;i++){
+    console.log(`Found ${names[i]}`);
+    break;
+}
+    
+    
+
+
+
