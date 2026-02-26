@@ -84,15 +84,28 @@ for(let x of names){
 
 // TUTORIAL CHALLANGE \\
 
-let names = ["Tan","Ten","Tin","Ton","Tun"];
+const names = ["Tan","Ten","Tin","Ton","Tun"];
 
+const searchNames = 4;
 
-for(let i = 4; i < names.length;i++){
+let x = false;
+//search base on index number
+for(let i = searchNames; i < names.length;i++){
+    x = true;
     console.log(`Found ${names[i]}`);
     break;
-}
-    
-    
+}if(!x) console.log("Not Found!");
 
+for(let i = 0; i < names.length;i++){
+    if(names[i] === searchNames){
+        x = true;
+        break;
+    }
+}
+    if (x) {
+        console.log(`found ${searchNames}`);
+    }else{
+        console.log(`not found`);
+    }
 
 
