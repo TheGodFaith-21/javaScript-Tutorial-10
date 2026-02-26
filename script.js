@@ -86,15 +86,17 @@ for(let x of names){
 
 const names = ["Tan","Ten","Tin","Ton","Tun"];
 
-const searchNames = 4;
+const searchNames = "Ton";
 
 let x = false;
+/*
 //search base on index number
 for(let i = searchNames; i < names.length;i++){
     x = true;
     console.log(`Found ${names[i]}`);
     break;
 }if(!x) console.log("Not Found!");
+*/
 
 for(let i = 0; i < names.length;i++){
     if(names[i] === searchNames){
