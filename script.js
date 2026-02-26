@@ -86,7 +86,7 @@ for(let x of names){
 
 const names = ["Tan","Ten","Tin","Ton","Tun"];
 
-const searchNames = "Ton";
+const searchNames = "TUn";
 
 let x = false;
 /*
@@ -97,7 +97,7 @@ for(let i = searchNames; i < names.length;i++){
     break;
 }if(!x) console.log("Not Found!");
 */
-
+/*
 for(let i = 0; i < names.length;i++){
     if(names[i] === searchNames){
         x = true;
@@ -109,5 +109,18 @@ for(let i = 0; i < names.length;i++){
     }else{
         console.log(`not found`);
     }
+*/
+
+for(let i = 0; i < names.length;i++)
+    if(names[i].toLowerCase() === searchNames.toLowerCase()){
+        x = true;
+        console.log(`found ${names[i]}`);
+        break;
+    }
+    
+    if(!x){
+         console.log("Not Found")
+    }
+       
 
 
